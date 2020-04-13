@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="utils-functions-plus", # Replace with your own username
-    version="0.0.5",
+    version="0.0.6",
     author="Fabio Alexandre",
     author_email="famhs@ecomp.poli.br",
-    description="A package with utils functions",
+    description="A set of auxiliary functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/fabmax94/utils_plus",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
