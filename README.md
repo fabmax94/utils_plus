@@ -50,3 +50,9 @@ tasks.append(threading.Thread(target=process_3))
 waiting(tasks)
 
 ```
+
+#### Pip
+
+https://pypi.org/project/utils-functions-plus
+
+```

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="utils-functions-plus",
-    version="0.0.7",
+    version="0.0.8",
     author="Fabio Alexandre",
     author_email="famhs@ecomp.poli.br",
     description="A set of auxiliary functions",
