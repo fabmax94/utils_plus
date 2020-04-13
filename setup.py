@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="utils-functions-plus", # Replace with your own username
-    version="0.0.6",
+    name="utils-functions-plus",
+    version="0.0.7",
     author="Fabio Alexandre",
     author_email="famhs@ecomp.poli.br",
     description="A set of auxiliary functions",
