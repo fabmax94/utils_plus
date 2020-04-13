@@ -24,9 +24,9 @@ def init_log(project_name, use_logging=False):
 
 def print_log(*message):
     if USE_LOGGING:
-        print(message)
-    else:
         logging.debug(message)
+    else:
+        print(message)
 
 
 def print_error():
@@ -34,9 +34,9 @@ def print_error():
     traceback.print_exc(file=sys.stdout)
     formatted_lines = traceback.format_exc()
     if USE_LOGGING:
-        print(formatted_lines)
-    else:
         logging.error(formatted_lines)
+    else:
+        print(formatted_lines)
     logging.error('-' * 60)
     return formatted_lines
 
