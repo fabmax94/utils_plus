@@ -9,7 +9,7 @@ This module is responsible for grouping the decorator functions.
 There are decorators to use lazy load, notifications, timeout, measure time and prevent exception.
 
 ```python
-from utils_plus.decorators import timeout
+from checklist_utils.decorators import timeout
 
 @timeout(20)
 def process_test():
@@ -23,7 +23,7 @@ This module is responsible for grouping the parser functions.
 There are functions to parser xml, json and images.
 
 ```python
-from utils_plus.parser import convert_list_to_dict
+from checklist_utils.parser import convert_list_to_dict
 
 list_data = [{"name": "Fabio"}, {"age": "26"}, {"company": "SIDIA"}]
 result = {}
@@ -39,7 +39,7 @@ This module is responsible for grouping the utility functions.
 There are functions to logging config, prints and threads.
 
 ```python
-from utils_plus.utility import waiting
+from checklist_utils.utility import waiting
 
 tasks = []
 
