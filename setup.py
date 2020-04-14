@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='automated_checklist_utils',
-    version="0.0.1",
+    name="utils-functions-plus",
+    version="0.0.8",
     author="Fabio Alexandre",
-    author_email='fabio.silva@samsung.com',
+    author_email="famhs@ecomp.poli.br",
     description="A set of auxiliary functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.sec.samsung.net/SIDIA-REQ/automated_checklist_utils.git",
+    url="https://github.com/fabmax94/utils_plus",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

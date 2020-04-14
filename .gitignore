@@ -1,6 +1,4 @@
-__pycache__
 dist/*
 build/*
 utils_functions_plus.egg-info/*
 /.idea/*
-venv/*
